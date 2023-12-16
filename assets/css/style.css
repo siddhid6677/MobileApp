@@ -1,0 +1,346 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hero-section {
+    padding: 45px 65px;
+    background-image: linear-gradient(rgb(217, 51, 45,0.5), rgb(217, 51, 45,0.5)), url(../images/mobile-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.hero-section .logo{
+	margin-bottom: 140px;
+}
+
+.navbar ul li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.navbar ul{
+	padding-top: 15px;
+}
+
+
+.navbar ul li a{
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+	text-transform: uppercase;
+    position: relative;
+}
+
+.navbar ul li a:after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background-color: #ffffff;
+    position: absolute;
+    transition: all 0.7s linear;
+    bottom: 0;
+    left: 0;
+}
+
+.navbar ul li a:hover::after{
+    width: 100%;
+}
+
+
+.chocolate-Info h1{
+	font-size: 52px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+}
+
+.chocolate-Info p{
+	font-size: 36px;
+	font-weight: 400;
+	color: #ffffff;
+	margin-bottom: 50px;
+}
+
+.chocolate-info .btn {
+    background-color: #282828;
+    border: none;
+    color: #ffffff;
+    padding: 15px 50px 15px 35px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 45px;
+	border: 2px solid #282828;
+    cursor: pointer;
+	transition: all 0.4s ease-in-out;
+}
+
+.chocolate-info .btn i {
+    margin-right: 25px;
+    font-size: 45px;
+	vertical-align: middle;
+}
+
+.chocolate-info .btn:hover{
+	color: #282828;
+	background-color: #ffffff;
+}
+
+
+.mobImg img{
+	height: 875;
+	width: 432;
+}
+
+.hero-section .mobImg{
+	position: relative;
+}
+
+.hero-section .mobImg img{
+	position: absolute;
+	right: 0;
+	top: -40;
+}
+
+
+/* ................................... hero-section end ........................*/
+
+
+
+.app-features{
+	padding: 85px 0 100px;
+}
+
+.app-features .feature-heading h1{
+	font-size: 52px;
+	color: #8a8a8a;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.app-features .feature-heading p{
+	font-size: 22px;
+	color: #3a3a3a;
+	font-weight: 400;
+	margin-bottom: 65px;
+}
+
+.featuresInfo figure{
+	width: 180px;
+	height: 180px;
+	margin: 0 auto 35px;
+}
+
+.featuresInfo figure img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+} 
+
+.featuresInfo img{
+    transition: all 0.5s ease-in-out;
+}
+
+.featuresInfo img:hover{
+    transform: scale(1.3);
+}
+
+.featuresInfo h2{
+	font-size: 24px;
+	font-weight: bold;
+	color: #1a1a1a;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.featuresInfo p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #646464;
+}
+
+
+/* ................................... features section end ........................*/
+
+.fruitsection{
+	padding: 200px 0 170px;
+	background-image: url('../images/choco-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+.fruitsInfo h2{
+	font-size: 52px;
+	font-weight: bold;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-bottom: 55px;
+}
+
+.fruitsInfo p{
+	font-size: 24px;
+	font-weight: 400;
+	color: #585858;
+	margin-bottom: 70px;
+	width: 80%;
+}
+
+.fruitsInfo .btn{
+	font-size: 15px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #d9332d;
+	text-transform: uppercase;
+	border-radius: 35px;
+	padding: 20px 15px;
+	border: 2px solid #d9332d;
+	cursor: pointer;
+	transition: all 0.7s linear;
+}
+
+.fruitsInfo .btn:hover{
+	color: #d9332d;
+	background-color: #ffffff;
+}
+
+/* ................................... fruitsection end ........................*/
+
+
+.p-postsection{
+	padding: 120px 0 150px;
+	background-color: #2e2e38;
+}
+
+.p-postsection .post-logo{
+	margin-bottom: 60px;
+}
+
+.p-postsection .f-list h4{
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
+
+.p-postsection .f-list .box{
+	width: 57px;
+	height: 40px;
+	background-color: #e74c3c;
+}
+
+.f-list ul li{
+	display: table;
+	clear: both;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.f-list ul li div {
+	float: left;
+}
+
+.f-list .donut-info{
+	margin-left: 15px;
+	padding-top: 5px;
+}
+
+.f-list .donut-info p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: capitalize;
+}
+
+.about-Info{
+	font-size: 15px;
+	font-weight: 400;
+	color: #ffffff;
+	font-style: italic;
+	text-transform: capitalize;
+	width: 70%;
+}
+
+.suits-list ul li p{
+	font-size: 11px;	
+	padding-top: 12px;
+}
+
+.suits-list .para-info{
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.suits-list ul li{
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 25px;
+	padding-top: 6px;
+	width: 70%;
+}
+
+footer{
+	padding: 40px 0;
+}
+
+.footerInfoSection p{
+	display: inline-block;
+	font-size: 24px;
+	font-weight: 400;
+	color: #000000;
+}
+
+.footerInfoSection p a{
+	color: #000000;	
+}
+
+.footerInfoSection p, .footerInfoSection .social-icons{
+	display: inline-block;
+}
+
+.footerInfoSection p span{
+	margin: 0 20px;
+	font-weight: 900;
+}
+
+.footerInfoSection .social-icons a:first-child{
+	margin-left: 20px;	
+}
+
+.footerInfoSection .social-icons a{
+	width: 30px;
+	height: 30px;
+	padding: 7px;
+	margin-right: 40px;
+	color: #ffffff;
+	border-radius: 5px;
+	background-color: #4762a1;	
+	transition:all 0.7s linear;
+}
+
+.footerInfoSection .social-icons a:hover{
+	transform: scale(1.3);
+}
+
+.footerInfoSection .social-icons a:nth-child(2){
+	background-color: #de3d7e;	
+}
+
+.footerInfoSection .social-icons a:nth-child(3){
+	background-color: #aaeaeb;	
+}
